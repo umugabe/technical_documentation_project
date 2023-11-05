@@ -10,32 +10,33 @@
 </head>
 <body>
     <main id="main-doc">
-    <div>
+        <div class="vertical"></div>
+    <!-- <div id="nav"> -->
     <nav id="navbar">
-      <header>JS Documentation</header>
+      <header id="js_documentation">JS Documentation</header>
         <ul>
-            <li><a href="#Introduction" class="nav-link" id="navbar">Introduction</a></li>
-            <li><a href="#what_you_should_already_know" class="nav-link" id="navbar">What you should already know</a></li>
-            <li><a href="#JavaScript_and_Java" class="nav-link" id="navbar">JavaScript and Java</a></li>
-            <li><a href="#Hello_world" class="nav-link" id="navbar">Hello world</a></li>
-            <li><a href="#Variables" class="nav-link" id="navbar">Variables</a></li>
-            <li><a href="#Declaring_variables" class="nav-link" id="navbar">Declaring variables</a></li>
-            <li><a href="#Variable_scope" class="nav-link" id="navbar">Variable scope</a></li>
-            <li><a href="#Global_variables" class="nav-link" id="navbar">Global variables</a></li>
-            <li><a href="#Constants" class="nav-link" id="navbar">Constants</a></li>
-            <li><a href="#Data_types" class="nav-link" id="navbar">Data types</a></li>
-            <li><a href="#If...else_statement" class="nav-link" id="navbar">if...else statement</a></li>
-            <li><a href="#while_statement" class="nav-link" id="navbar">while statement</a></li>
-            <li><a href="#Function_declarations" class="nav-link" id="navbar">Function declarations</a></li>
-            <li><a href="#Reference" class="nav-link" id="navbar">Reference</a></li>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#what_you_should_already_know" class="nav-link">What you should already know</a></li>
+            <li><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a></li>
+            <li><a href="#Hello_world" class="nav-link">Hello world</a></li>
+            <li><a href="#Variables" class="nav-link">Variables</a></li>
+            <li><a href="#Declaring_variables" class="nav-link">Declaring variables</a></li>
+            <li><a href="#Variable_scope" class="nav-link">Variable scope</a></li>
+            <li><a href="#Global_variables" class="nav-link">Global variables</a></li>
+            <li><a href="#Constants" class="nav-link">Constants</a></li>
+            <li><a href="#Data_types" class="nav-link">Data types</a></li>
+            <li><a href="#If...else_statement" class="nav-link">if...else statement</a></li>
+            <li><a href="#while_statement" class="nav-link">while statement</a></li>
+            <li><a href="#Function_declarations" class="nav-link">Function declarations</a></li>
+            <li><a href="#Reference" class="nav-link">Reference</a></li>
         </ul>
     </nav>
-</div>
-    <div>
+<!-- </div> -->
+    <div id="page_content">
         <section class="main-section" id="Introduction">
             <header>Introduction</header>
-            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
-            <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.<p>
+             <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
             <ul>
                 <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
                 </li>
@@ -85,8 +86,8 @@
             <p>This syntax can be used to declare both local and global variables.</p>
             <p>By simply assigning it a value. For example,</p>
             <code>x = 42.</code>
-            <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
-            <p>With the keyword let. For example,</p>
+            <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
+            With the keyword let. For example,</p>
             <code>let y = 13.</code>
             <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
 
@@ -201,6 +202,7 @@
             </ul>
         </section>
     </div>
+
     </main>
 </body>
 </html>
